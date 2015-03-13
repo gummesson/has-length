@@ -1,0 +1,32 @@
+{
+  "name": "has-length",
+  "version": "1.0.0",
+  "description": "Check if an array, an object or a string has a length.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/has-length.git"
+  },
+  "keywords": [
+    "string",
+    "array",
+    "object",
+    "length",
+    "size"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/has-length/issues"
+  },
+  "homepage": "https://github.com/gummesson/has-length",
+  "dependencies": {
+    "type-of": "^2.0.1"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "node test/"
+  }
+}
