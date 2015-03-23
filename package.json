@@ -20,9 +20,7 @@
     "url": "https://github.com/gummesson/has-length/issues"
   },
   "homepage": "https://github.com/gummesson/has-length",
-  "dependencies": {
-    "type-of": "^2.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "^3.5.0"
   },

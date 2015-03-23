@@ -2,7 +2,7 @@
  * Dependencies
  */
 
-var typeOf = require('type-of')
+var isArray = Array.isArray
 
 /**
  * Check if `obj` has a length.
@@ -14,7 +14,7 @@ var typeOf = require('type-of')
  */
 
 function hasLength(obj) {
-  if (typeOf(obj) === 'object')
+  if (typeof obj === 'object' && !isArray(obj))
     obj = Object.keys(obj)
   return !!obj.length
 }
